@@ -4,7 +4,7 @@ import InputUser from "./components/InputUser"
 import Result from "./components/Result"
 
 function App() {
-      const [inputUser, setInputUser] = useState({
+       const [inputUser, setInputUser] = useState({
         initialValue: 100,
         annualValue:200,
         expectedRate:1,
