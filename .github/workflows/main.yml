@@ -35,9 +35,9 @@ jobs:
       - name: Build project
         run: npm run build
 
-      # Step 6: Deploy to GitHub Pages
+      # Step 6: Deploy to Netlify
       - name: Deploy to Netlify
-        uses: netlify/actions/cli@v2
+        uses: nwtgck/actions-netlify@v2.1.1
         with:
           publish-dir: ./build # Directory with the output of the build
           production-deploy: true
